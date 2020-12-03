@@ -132,6 +132,8 @@ namespace PingerAssignment
             BtnAddUrl.Visible = false;
             BtnCancel.Visible = false;
             BtnOutput.Visible = false;
+             TxtUrl.Text="";
+
         }
 
         private void BtnRsCancel_Click(object sender, EventArgs e)
@@ -141,6 +143,7 @@ namespace PingerAssignment
             BtnRsAddUrl.Visible = false;
             BtnRsCancel.Visible = false;
             BtnRsOutput.Visible = false;
+            TxtIp.Text="";
         }
 
 
@@ -152,6 +155,7 @@ namespace PingerAssignment
             BtnRdbAddIp.Visible = false;
             BtnRdbCancel.Visible = false;
             BtnRdbOutput.Visible = false;
+            TxtRdbIp.Text="";
         }
 
 
@@ -163,6 +167,7 @@ namespace PingerAssignment
             BtnAddUrl.Visible = false;
             BtnCancel.Visible = false;
             BtnOutput.Visible = false;
+            TxtUrl.Text="";
         }
 
         private void BtnAddUrl_Click_1(object sender, EventArgs e)
@@ -211,6 +216,7 @@ namespace PingerAssignment
             BtnRsAddUrl.Visible = false;
             BtnRsCancel.Visible = false;
             BtnRsOutput.Visible = false;
+            TxtIp.Text="";
         }
 
         private void BtnRsAddUrl_Click_1(object sender, EventArgs e)
@@ -254,7 +260,7 @@ namespace PingerAssignment
 
         private void BtnRdbAddIp_Click_1(object sender, EventArgs e)
         {
-            string rdbIp = TxtIp.Text;
+            string rdbIp = TxtRdbIp.Text;
             try
             {
                 HttpWebRequest myHttpWebRequest = (HttpWebRequest)WebRequest.Create(rdbIp);
@@ -298,6 +304,7 @@ namespace PingerAssignment
             BtnRdbAddIp.Visible = false;
             BtnRdbCancel.Visible = false;
             BtnRdbOutput.Visible = false;
+            TxtRdbIp.Text="";
         }
 
         private void TxtUrl_Enter(object sender, EventArgs e)
