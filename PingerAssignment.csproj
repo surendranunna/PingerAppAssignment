@@ -46,16 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PingerAppForm.cs">
+    <Compile Include="MainPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PingerAppForm.Designer.cs">
-      <DependentUpon>PingerAppForm.cs</DependentUpon>
+    <Compile Include="MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="PingerAppForm.resx">
-      <DependentUpon>PingerAppForm.cs</DependentUpon>
+    <Compile Include="ResetPinger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResetPinger.Designer.cs">
+      <DependentUpon>ResetPinger.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -67,6 +73,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ResetPinger.resx">
+      <DependentUpon>ResetPinger.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -88,6 +97,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Screenshot %28120%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\succeeded.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

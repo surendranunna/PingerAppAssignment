@@ -1,0 +1,11 @@
+C:\Users\personal\source\repos\PingerAssignment\bin\Debug\PingerAssignment.exe.config
+C:\Users\personal\source\repos\PingerAssignment\bin\Debug\PingerAssignment.exe
+C:\Users\personal\source\repos\PingerAssignment\bin\Debug\PingerAssignment.pdb
+C:\Users\personal\source\repos\PingerAssignment\obj\Debug\PingerAssignment.csprojAssemblyReference.cache
+C:\Users\personal\source\repos\PingerAssignment\obj\Debug\PingerAssignment.Properties.Resources.resources
+C:\Users\personal\source\repos\PingerAssignment\obj\Debug\PingerAssignment.csproj.GenerateResource.cache
+C:\Users\personal\source\repos\PingerAssignment\obj\Debug\PingerAssignment.csproj.CoreCompileInputs.cache
+C:\Users\personal\source\repos\PingerAssignment\obj\Debug\PingerAssignment.exe
+C:\Users\personal\source\repos\PingerAssignment\obj\Debug\PingerAssignment.pdb
+C:\Users\personal\source\repos\PingerAssignment\obj\Debug\PingerAssignment.PingerApp.resources
+C:\Users\personal\source\repos\PingerAssignment\obj\Debug\PingerAssignment.ResetPinger.resources
